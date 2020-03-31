@@ -61,14 +61,19 @@ nav li
 
 header
 {
-    text-align: center;
-    padding: 20px;
+    /*text-align: center;*/
+    padding: 30px;
 }
 
-/*header div
+header div
 {
-    width: 400px;
-}*/
+    display: flex;
+}
+
+.headtop
+{
+    text-align: left;
+}
 
 .content
 {
@@ -89,11 +94,11 @@ header img
     transform: rotate(270deg);
 }
 
-/*.align
+.align
 {
     text-align: right;
     
-}*/
+}
 
 section
 {
@@ -137,6 +142,7 @@ section
 {
     display: inline-block;
     padding-right: 80px;
+    height: 5px;
 }
 
 footer
@@ -153,7 +159,7 @@ footer ul
 
 .links
 {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     width: 390px;
     display: inline-block;
 }
