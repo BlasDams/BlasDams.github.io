@@ -6,7 +6,7 @@ body
 
 .page
 {
-    width: 900px;
+    width: 880px;
     margin: auto;
     border: 5px solid;
     border-radius: 10px;
@@ -121,6 +121,11 @@ section
 #education aside
 {
     float: right;
+}
+#passion p
+{
+    display: inline-block;
+    padding-right: 80px;
 }
 
 footer
