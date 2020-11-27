@@ -1,0 +1,187 @@
+body
+{
+    font-family: 'Poppins';
+    margin: 0px;
+}
+
+/*.page
+{
+    width: 880px;
+    margin: auto;
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(170, 170, 170);
+}*/
+
+nav
+{
+    height: 72px;
+    padding: 22px;
+    display: flex;
+}
+
+#nav-big-div
+{
+    display: flex;
+}
+
+/*nav h2
+{
+    margin: auto;
+}*/
+
+.backgr-blue
+{
+    color: white;
+    background-color: #0475ba;
+}
+
+a
+{
+    color: white;
+}
+
+nav ul
+{
+    display: flex;
+    margin: 0px;
+    padding: 24px;
+    list-style: none;
+}
+
+nav li
+{
+    margin-left: 15px;
+}
+
+header
+{
+    text-align: center;
+    padding: 40px;
+    /*background-color: yellow;*/
+}
+
+#always-center
+{
+    text-align: center;
+}
+
+.container
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bleu
+{
+    color: rgb(4, 117, 186);
+}
+
+header img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+    transform: rotate(360deg);
+}
+
+section
+{
+    padding: 40px;
+}
+
+#xp ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#xp li
+{
+    margin-bottom: 10px;
+}
+
+#xp aside
+{
+    float: right;
+}
+
+#education ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#education li
+{
+    margin-bottom: 10px;
+}
+
+#education aside
+{
+    float: right;
+}
+
+aside
+{
+    color: rgb(170, 170, 170);
+}
+
+#passion p
+{
+    display: inline-block;
+    padding-right: 80px;
+    height: 5px;
+}
+
+footer
+{
+    padding: 40px;
+}
+
+footer ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.links
+{
+    margin-bottom: 20px;
+    width: 390px;
+    display: inline-block;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+@media(min-width: 725px){
+    #header-div{
+        display: flex;
+        justify-content: center;
+    }
+    header img{
+    margin-left: 48px;
+    }
+}
+
+@media(max-width: 725px){
+    #nav-big-div{
+        display: none;
+    }
+    /*header img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }*/
+    h3
+    {
+        text-align: center;
+    }
+}
