@@ -1,0 +1,208 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    color: white;
+    font-family: 'Josefin Sans SemiBold';
+    height: 2030px;
+}
+#page/* vous auriez du voir la joie que j'ai eu quand j'ai trouve cette solution (tout a la fin) et comment j'ai trouve la maniere de copier la meme couleur que sur la photo !!!*/ 
+{
+    background-color:/*cyan;*/rgb(85, 214, 194);
+    width: 1050px;
+    margin: auto;
+    border: 1px solid thick;
+    box-shadow: 1px 1px 1px rgba(170, 170, 170, 0.171);
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+p
+{
+    font-family: 'Josefin Sans Light';
+    text-align: justify;
+}
+a:hover
+{
+    color: black;
+}
+
+/* HEADER */
+header
+{
+    height: 60px;
+}
+header h2
+{
+    float: left;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+header nav
+{
+    float: right;
+    margin-top: 22px;
+}
+header nav ul li
+{
+    float: left;
+    /*display: inline-block; avec le float ca ressemble plus a la photo*/
+}
+header nav ul li a
+{
+    margin-right: 15px;
+}
+
+/* ACCUEIL */
+#accueil
+{
+    height: 700px;
+    background: url(img/header.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#accueil .container
+{
+    text-align: center;
+    padding-top: 340px;
+}
+#accueil h1
+{
+    font-size: xx-large;
+}
+#accueil h2
+{
+    margin-top: 20px;
+}
+
+/* PRESENTATION */
+#presentation h3
+{
+    margin: 80px 70px 0px 15px;
+}
+#presentation
+{
+    height: 430px;
+    /*float: left;*/
+}
+#presentation img
+{
+    float: right;
+    margin-top: 0;
+    margin-right: 50px;
+}
+#presentation p
+{
+    margin: 17px 320px 0px 15px;
+}
+
+/* SERVICE */
+#service
+{
+    color: black;
+    background-color: white;
+    height: 435px;
+}
+#first-h3-id
+{
+    margin: 80px 70px 0px 15px;
+    float: left;
+}
+#service article/*Le sursaut de joie apres un temps fou, enfin reussi !!!*/
+{
+    width: 260px;
+    height: 275px;
+    display: inline-block;
+    border: 1px solid thick;
+    box-shadow: 1px 1px 1px rgba(170, 170, 170, 0.171);
+    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*max-width: 100%;
+    max-height: 50%; je voudrais un eclaircicement*/
+    margin-top: 130px;
+    margin-right: 8px;
+}
+article a
+{
+    color: rgb(85, 214, 194);
+}
+#service h4
+{
+    text-align: center;
+    margin-top: 175px;
+    font-family: 'Josefin Sans light';
+}
+.button1
+{
+    margin-top: 20px;
+    font-family: 'Josefin Sans light';
+    text-align: center;/*N'a plus fonctionne apres avoir mis le width ci-dessous (arrrrffffffff !!!)*/
+    color: rgb(85, 214, 194);
+    border-style: solid;
+    padding: 6px 0;
+    width: 120px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(85, 214, 194);
+    margin-left: 70px;
+}
+
+/* CONTACT */
+#contact
+{
+    height: 280px;
+}
+#last-left-div
+{
+    float: left;
+    margin: 80px 70px 0px 15px;
+}
+#last-left-div p
+{
+    margin-left: 0;
+}
+#last-right-div
+{
+    font-family: 'Josefin Sans light';
+    float: right;
+    margin-top: 90px;
+}
+#last-right-div p
+{
+    margin: 10px 0 10px 0;
+}
+.inscription
+{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 5px 0;
+}
+input
+{
+    padding: 2px;
+    font-size: 15px;
+    font-family: 'Josefin Sans light';
+    border-radius: 3px;
+}
+
+    /*width: 880px;
+    margin: auto;
